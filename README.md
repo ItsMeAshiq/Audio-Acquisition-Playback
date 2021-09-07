@@ -1,5 +1,9 @@
 # Audio-Acquisition-Playback
- Simple DAQ & Playback System for Audio Devices on your PC.
+Simple DAQ & Playback System for Audio Devices on your PC.
+
+**Source Code Version**
+
+LabVIEW 2020
 
 
 **Dependencies**
