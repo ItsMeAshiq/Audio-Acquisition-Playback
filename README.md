@@ -1,5 +1,5 @@
 # Audio-Acquisition-Playback
- Simple DAQ & Playback System for Audio.
+ Simple DAQ & Playback System for Audio Devices on your PC.
 
 
 **Dependencies**
