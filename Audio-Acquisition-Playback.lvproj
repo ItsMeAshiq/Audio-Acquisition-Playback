@@ -13,8 +13,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Audio-Acquisition-Playback" Type="Folder">
 			<Item Name="support" Type="Folder">
-				<Item Name="Audio Device Info.vi" Type="VI" URL="../Audio Device Info.vi"/>
-				<Item Name="Scan Audio Devices.vi" Type="VI" URL="../Scan Audio Devices.vi"/>
+				<Item Name="Audio Device Info.vi" Type="VI" URL="../support/Audio Device Info.vi"/>
+				<Item Name="Scan Audio Devices.vi" Type="VI" URL="../support/Scan Audio Devices.vi"/>
+				<Item Name="Get Codec - copy.vi" Type="VI" URL="../support/Get Codec - copy.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Acquire &amp; Store" Type="Folder">
@@ -155,6 +156,7 @@
 				<Item Name="Sound File Write Simple.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Write Simple.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Seek Audio File.vi" Type="VI" URL="/&lt;vilib&gt;/Dataflow_G/G-Audio/Seek Audio File.vi"/>
 			</Item>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="g_audio_x64.dll" Type="Document" URL="/../../../../github/dataflowg/g-audio/src/.LabVIEW/G-Audio/lib/g_audio_x64.dll"/>
